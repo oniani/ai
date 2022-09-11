@@ -59,7 +59,7 @@ class GaussianNaiveBayes:
 
 if __name__ == "__main__":
     from sklearn.datasets import load_iris
-    from sklearn.metrics import precision_recall_fscore_support
+    from sklearn.metrics import accuracy_score, precision_recall_fscore_support
     from sklearn.model_selection import train_test_split
 
     features, labels = load_iris(return_X_y=True)
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     gnb.fit()
     predictions = gnb.predict(test_features)  # type: ignore
 
-    accuracy = np.mean(predictions == test_labels)
+    accuracy = accuracy_score(test_labels, predictions)
     precision, recall, fscore, _ = precision_recall_fscore_support(
         test_labels, predictions, average="macro"
     )

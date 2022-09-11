@@ -10,7 +10,7 @@ class KNN:
     k: int
 
     def predict(self, features: np.ndarray) -> np.ndarray:
-        """Performs inference on the given features."""
+        """Performs inference using the given features."""
 
         num_samples, _ = features.shape
 
@@ -26,7 +26,7 @@ class KNN:
 
 if __name__ == "__main__":
     from sklearn import datasets
-    from sklearn.metrics import precision_recall_fscore_support
+    from sklearn.metrics import accuracy_score, precision_recall_fscore_support
     from sklearn.model_selection import train_test_split
 
     iris = datasets.load_iris()
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     knn = KNN(train_features, train_labels, k=3)  # type: ignore
     predictions = knn.predict(test_features)  # type: ignore
 
-    accuracy = np.mean(predictions == test_labels)
+    accuracy = accuracy_score(test_labels, predictions)
     precision, recall, fscore, _ = precision_recall_fscore_support(
         test_labels, predictions, average="macro"
     )
