@@ -33,5 +33,5 @@ _Contains Code for the [Implement Series][implement]_
 [k_nearest_neighbors_youtube]: https://www.youtube.com/watch?v=8SFTAcZb9i4
 [linear_regression]: models/linear_regression.py
 [linear_regression_theory]: https://en.wikipedia.org/wiki/Linear_regression
-[linear_regression_youtube]: ...
+[linear_regression_youtube]: https://www.youtube.com/watch?v=7FdQZ9r41LU
 [implement]: https://www.youtube.com/watch?v=maJIRFeQBVI&list=PLG8XxYPkVOUvVzz1ZKcGAJpIBK7GRrFYR
