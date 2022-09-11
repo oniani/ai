@@ -5,22 +5,20 @@ from dataclasses import dataclass
 
 @dataclass
 class LinearRegression:
-    features: np.ndarray
-    labels: np.ndarray
     learning_rate: float
     epochs: int
     logging: bool
 
-    def fit(self) -> None:
+    def fit(self, features: np.ndarray, labels: np.ndarray) -> None:
         """Fits the Linear Regression model."""
 
-        num_samples, num_features = self.features.shape
+        num_samples, num_features = features.shape
         self.weights, self.bias = np.zeros(num_features), 0
 
         for epoch in range(self.epochs):
-            residuals = self.labels - self.predict(self.features)  # type: ignore
+            residuals = labels - self.predict(features)  # type: ignore
 
-            d_weights = -2 / num_samples * residuals.dot(self.features)
+            d_weights = -2 / num_samples * residuals.dot(features)
             d_bias = -2 / num_samples * residuals.sum()
 
             self.weights -= self.learning_rate * d_weights
@@ -50,10 +48,8 @@ if __name__ == "__main__":
     test_features = np.arange(300, 400, 8).reshape(-1, 1)
     test_labels = np.arange(600, 800, 16)
 
-    linear_regression = LinearRegression(
-        train_features, train_labels, epochs=75, learning_rate=1e-5, logging=False
-    )
-    linear_regression.fit()
+    linear_regression = LinearRegression(epochs=25, learning_rate=1e-5, logging=False)
+    linear_regression.fit(train_features, train_labels)
     predictions = linear_regression.predict(test_features).round()
 
     # Plot the data
