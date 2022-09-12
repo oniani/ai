@@ -54,7 +54,7 @@ class GaussianNaiveBayes:
             # Store the label with the largest posterior probability
             predictions[idx] = self.unique_labels[np.argmax(posteriors)]
 
-        return np.array(predictions)
+        return predictions
 
 
 if __name__ == "__main__":
