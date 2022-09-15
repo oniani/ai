@@ -5,18 +5,16 @@ from dataclasses import dataclass
 
 @dataclass
 class GaussianNaiveBayes:
-    features: np.ndarray
-    labels: np.ndarray
-
-    def fit(self) -> None:
+    def fit(self, features: np.ndarray, labels: np.ndarray) -> None:
         """Fits the Gaussian Naive Bayes model."""
 
-        self.unique_labels = np.unique(self.labels)
+        self.labels = labels
+        self.unique_labels = np.unique(labels)
 
         self.params = []
         # For the given label, calculate the mean and variance of all features
         for label in self.unique_labels:
-            label_features = self.features[self.labels == label]
+            label_features = features[self.labels == label]
             self.params.append([(col.mean(), col.var()) for col in label_features.T])
 
     def likelihood(self, data: float, mean: float, var: float) -> float:
@@ -40,16 +38,15 @@ class GaussianNaiveBayes:
             posteriors = []
             for label_idx, label in enumerate(self.unique_labels):
                 # Prior is the mean of what we have
-                prior = (self.labels == label).mean()
+                prior = np.log((self.labels == label).mean())
 
                 # Naive assumption (independence):
                 #   P(a0, a1, a2 | B) = P(a0 | B) * P(a1 | B) * P(a2 | B)
-                likelihood = np.prod(
-                    [self.likelihood(f, m, v) for f, (m, v) in zip(feature, self.params[label_idx])]
-                )
+                pairs = zip(feature, self.params[label_idx])
+                likelihood = np.sum([np.log(self.likelihood(f, m, v)) for f, (m, v) in pairs])
 
                 # Posterior = Prior * Likelihood / Scaling Factor (ignoring scaling factor)
-                posteriors.append(prior * likelihood)
+                posteriors.append(prior + likelihood)
 
             # Store the label with the largest posterior probability
             predictions[idx] = self.unique_labels[np.argmax(posteriors)]
@@ -67,8 +64,8 @@ if __name__ == "__main__":
         features, labels, test_size=0.5, random_state=0
     )
 
-    gnb = GaussianNaiveBayes(train_features, train_labels)  # type: ignore
-    gnb.fit()
+    gnb = GaussianNaiveBayes()
+    gnb.fit(train_features, train_labels)  # type: ignore
     predictions = gnb.predict(test_features)  # type: ignore
 
     accuracy = accuracy_score(test_labels, predictions)
