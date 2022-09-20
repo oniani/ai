@@ -13,7 +13,7 @@ class LogisticRegression:
     def sigmoid(self, predictions: np.ndarray) -> np.ndarray:
         """The numerically stable implementation of the Sigmoid activation function."""
 
-        neg_mask = predictions < 1
+        neg_mask = predictions < 0
         pos_mask = ~neg_mask
 
         zs = np.empty_like(predictions)
