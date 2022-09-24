@@ -6,7 +6,12 @@ _Contains Code for the [Implement Series][implement]_
 
 ## Contents
 
-- Models From Scratch
+- Activations Functions and Their Derivative Functions from Scratch Using Pytorch
+  - Sigmoid
+    - [Implementation][sigmoid]
+    - [Theory][sigmoid_theory]
+    - [YouTube Video: Implementing Sigmoid and Its Derivative Function Using PyTorch][sigmoid_youtube]
+- Models From Scratch Using numpy
   - Gaussian Naive Bayes
     - [Implementation][gaussian_naive_bayes]
     - [Theory][gaussian_naive_bayes_theory]
@@ -33,6 +38,9 @@ _Contains Code for the [Implement Series][implement]_
 [MIT License][license]
 
 [license]: LICENSE
+[sigmoid]: activations/sigmoid.py
+[sigmoid_theory]: https://en.wikipedia.org/wiki/Sigmoid_function
+[sigmoid_youtube]: https://www.youtube.com/watch?v=oxC3T_-_Amw&t=42s
 [gaussian_naive_bayes]: models/gaussian_naive_bayes.py
 [gaussian_naive_bayes_theory]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
 [gaussian_naive_bayes_youtube]: https://www.youtube.com/watch?v=maJIRFeQBVI
