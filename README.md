@@ -1,37 +1,44 @@
 # ai
 
-Artificial Intelligence (AI).
-
-_Contains Code for the [Implement Series][implement]_
+_Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 
 ## Contents
 
-- Activations Functions and Their Derivative Functions from Scratch Using Pytorch
+- **Activation Functions and Their Derivative Functions from Scratch Using Pytorch**
+
   - Sigmoid
-    - [Implementation][sigmoid]
-    - [Theory][sigmoid_theory]
-    - [YouTube Video: Implementing Sigmoid and Its Derivative Function Using PyTorch][sigmoid_youtube]
-- Models From Scratch Using numpy
+    - [:rocket: Implementation][sigmoid]
+    - [:orange_book: Theory][sigmoid_theory]
+    - [:chart_with_upwards_trend: Plot][sigmoid_plot]
+    - [:tv: YouTube Video: Discussing and Implementing Sigmoid and Its Derivative Using PyTorch][sigmoid_youtube]
+  - ReLU
+    - [:rocket: Implementation][relu]
+    - [:orange_book: Theory][relu_theory]
+    - [:chart_with_upwards_trend: Plot][relu_plot]
+    - [:tv: YouTube Video: Discussing and Implementing ReLU and Its Derivative Using PyTorch][relu_youtube]
+
+- **Machine Learning Models From Scratch Using NumPy**
+
   - Gaussian Naive Bayes
-    - [Implementation][gaussian_naive_bayes]
-    - [Theory][gaussian_naive_bayes_theory]
-    - [YouTube Video: Implementing Gaussian Naive Bayes from Scratch][gaussian_naive_bayes_youtube]
-    - [YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
+    - [:rocket: Implementation][gaussian_naive_bayes]
+    - [:orange_book: Theory][gaussian_naive_bayes_theory]
+    - [:tv: YouTube Video: Implementing Gaussian Naive Bayes from Scratch][gaussian_naive_bayes_youtube]
+    - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
   - K-Nearest Neighbors (k-NN)
-    - [Implementation][k_nearest_neighbors]
-    - [Theory][k_nearest_neighbors_theory]
-    - [YouTube Video: Implementing K-Nearest Neighbors (k-NN) from Scratch][k_nearest_neighbors_youtube]
-    - [YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
+    - [:rocket: Implementation][k_nearest_neighbors]
+    - [:orange_book: Theory][k_nearest_neighbors_theory]
+    - [:tv: YouTube Video: Implementing K-Nearest Neighbors from Scratch][k_nearest_neighbors_youtube]
+    - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
   - Linear Regression
-    - [Implementation][linear_regression]
-    - [Theory][linear_regression_theory]
-    - [YouTube Video: Implementing Linear Regression from Scratch][linear_regression_youtube]
-    - [YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
+    - [:rocket: Implementation][linear_regression]
+    - [:orange_book: Theory][linear_regression_theory]
+    - [:tv: YouTube Video: Implementing Linear Regression from Scratch][linear_regression_youtube]
+    - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
   - Logistic Regression
-    - [Implementation][logistic_regression]
-    - [Theory][logistic_regression_theory]
-    - [Computing Gradients][logistic_regression_computing_gradients]
-    - [YouTube Video: Implementing Linear Regression from Scratch][logistic_regression_youtube]
+    - [:rocket: Implementation][logistic_regression]
+    - [:orange_book: Theory][logistic_regression_theory]
+    - [:orange_book: Computing Gradients][logistic_regression_computing_gradients]
+    - [:tv: YouTube Video: Implementing Linear Regression from Scratch][logistic_regression_youtube]
 
 ## License
 
@@ -40,7 +47,12 @@ _Contains Code for the [Implement Series][implement]_
 [license]: LICENSE
 [sigmoid]: activations/sigmoid.py
 [sigmoid_theory]: https://en.wikipedia.org/wiki/Sigmoid_function
-[sigmoid_youtube]: https://www.youtube.com/watch?v=oxC3T_-_Amw&t=42s
+[sigmoid_plot]: activations/plots/sigmoid.png
+[sigmoid_youtube]: https://www.youtube.com/watch?v=oxC3T_-_Amw
+[relu]: activations/relu.py
+[relu_theory]: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)
+[relu_plot]: activations/plots/relu.png
+[relu_youtube]: https://www.youtube.com/watch?v=93qjwrP7PfE
 [gaussian_naive_bayes]: models/gaussian_naive_bayes.py
 [gaussian_naive_bayes_theory]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
 [gaussian_naive_bayes_youtube]: https://www.youtube.com/watch?v=maJIRFeQBVI
