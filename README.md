@@ -21,6 +21,11 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
     - [:orange_book: Theory][leaky_relu_theory]
     - [:chart_with_upwards_trend: Plot][leaky_relu_plot]
     - [:tv: YouTube Video: Discussing and Implementing Leaky ReLU and Its Derivative Using PyTorch][leaky_relu_youtube]
+  - GELU
+    - [:rocket: Implementation][gelu]
+    - [:orange_book: Theory][gelu_theory]
+    - [:chart_with_upwards_trend: Plot][gelu_plot]
+    - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][gelu_youtube]
 
 - **Machine Learning Models From Scratch Using NumPy**
 
@@ -62,6 +67,10 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [leaky_relu_theory]: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#Leaky_ReLU
 [leaky_relu_plot]: activations/plots/leaky_relu.png
 [leaky_relu_youtube]: https://www.youtube.com/watch?v=1HLKeWG0qnE
+[gelu]: activations/gelu.py
+[gelu_theory]: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#Gaussian-error_linear_unit_(GELU)
+[gelu_plot]: activations/plots/gelu.png
+[gelu_youtube]: https://www.youtube.com/watch?v=1HLKeWG0qnE
 [gaussian_naive_bayes]: models/gaussian_naive_bayes.py
 [gaussian_naive_bayes_theory]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
 [gaussian_naive_bayes_youtube]: https://www.youtube.com/watch?v=maJIRFeQBVI
