@@ -26,6 +26,11 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
     - [:orange_book: Theory][gelu_theory]
     - [:chart_with_upwards_trend: Plot][gelu_plot]
     - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][gelu_youtube]
+  - Swish
+    - [:rocket: Implementation][swish]
+    - [:orange_book: Theory][swish_theory]
+    - [:chart_with_upwards_trend: Plot][swish_plot]
+    - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][swish_youtube]
 
 - **Machine Learning Models From Scratch Using NumPy**
 
@@ -71,6 +76,10 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [gelu_theory]: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#Gaussian-error_linear_unit_(GELU)
 [gelu_plot]: activations/plots/gelu.png
 [gelu_youtube]: https://www.youtube.com/watch?v=1HLKeWG0qnE
+[swish]: activations/swish.py
+[swish_theory]: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#SiLU
+[swish_plot]: activations/plots/swish.png
+[swish_youtube]: https://www.youtube.com/watch?v=1HLKeWG0qnE
 [gaussian_naive_bayes]: models/gaussian_naive_bayes.py
 [gaussian_naive_bayes_theory]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
 [gaussian_naive_bayes_youtube]: https://www.youtube.com/watch?v=maJIRFeQBVI
