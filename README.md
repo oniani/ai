@@ -31,6 +31,12 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
     - [:orange_book: Theory][swish_theory]
     - [:chart_with_upwards_trend: Plot][swish_plot]
     - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][swish_youtube]
+  - SERF
+    - [:rocket: Implementation][serf]
+    - [:orange_book: Theory][serf_theory]
+    - [:chart_with_upwards_trend: Plot][serf_plot]
+    - [:tv: YouTube Video: Discussing and Implementing SERF and Its Derivative Using PyTorch (r/MachineLearning special)][serf_youtube]
+    - [:newspaper: r/MachineLearning reddit post by u/Shronnin: \[R\] \[D\] SERF activation function - improving Swish][serf_reddit]
 
 - **Machine Learning Models From Scratch Using NumPy**
 
@@ -80,6 +86,11 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [swish_theory]: https://en.wikipedia.org/wiki/Rectifier_(neural_networks)#SiLU
 [swish_plot]: activations/plots/swish.png
 [swish_youtube]: https://www.youtube.com/watch?v=1HLKeWG0qnE
+[serf]: activations/serf.py
+[serf_theory]: https://arxiv.org/abs/2108.09598
+[serf_plot]: activations/plots/serf.png
+[serf_youtube]: https://www.youtube.com/watch?v=CLjmEuCxuT4
+[serf_reddit]: https://www.reddit.com/r/MachineLearning/comments/uhgupq/r_d_serf_activation_function_improving_swish/
 [gaussian_naive_bayes]: models/gaussian_naive_bayes.py
 [gaussian_naive_bayes_theory]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
 [gaussian_naive_bayes_youtube]: https://www.youtube.com/watch?v=maJIRFeQBVI
