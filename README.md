@@ -37,6 +37,11 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
     - [:chart_with_upwards_trend: Plot][serf_plot]
     - [:tv: YouTube Video: Discussing and Implementing SERF and Its Derivative Using PyTorch (r/MachineLearning special)][serf_youtube]
     - [:newspaper: r/MachineLearning reddit post by u/Shronnin: \[R\] \[D\] SERF activation function - improving Swish][serf_reddit]
+  - Tanh
+    - [:rocket: Implementation][tanh]
+    - [:orange_book: Theory][tanh_theory]
+    - [:chart_with_upwards_trend: Plot][tanh_plot]
+    - [:tv: YouTube Video: Discussing and Implementing Tanh and Its Derivative Using PyTorch][tanh_youtube]
 
 - **Machine Learning Models From Scratch Using NumPy**
 
@@ -91,6 +96,10 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [serf_plot]: activations/plots/serf.png
 [serf_youtube]: https://www.youtube.com/watch?v=CLjmEuCxuT4
 [serf_reddit]: https://www.reddit.com/r/MachineLearning/comments/uhgupq/r_d_serf_activation_function_improving_swish/
+[tanh]: activations/tanh.py
+[tanh_theory]: https://en.wikipedia.org/wiki/Hyperbolic_functions#Exponential_definitions
+[tanh_plot]: activations/plots/tanh.png
+[tanh_youtube]: https://www.youtube.com/watch?v=MSi1tobj-jg
 [gaussian_naive_bayes]: models/gaussian_naive_bayes.py
 [gaussian_naive_bayes_theory]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
 [gaussian_naive_bayes_youtube]: https://www.youtube.com/watch?v=maJIRFeQBVI
