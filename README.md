@@ -4,67 +4,70 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 
 ## Contents
 
-- **Activation Functions and Their Derivative Functions from Scratch Using Pytorch**
+- [Activation Functions and Their Derivative Functions from Scratch Using Pytorch](#activation-functions-and-their-derivative-functions-from-scratch-using-pytorch)
+- [Machine Learning Models From Scratch Using NumPy](#machine-learning-models-from-scratch-using-numpy)
 
-  - Sigmoid
-    - [:rocket: Implementation][sigmoid]
-    - [:orange_book: Theory][sigmoid_theory]
-    - [:chart_with_upwards_trend: Plot][sigmoid_plot]
-    - [:tv: YouTube Video: Discussing and Implementing Sigmoid and Its Derivative Using PyTorch][sigmoid_youtube]
-  - ReLU
-    - [:rocket: Implementation][relu]
-    - [:orange_book: Theory][relu_theory]
-    - [:chart_with_upwards_trend: Plot][relu_plot]
-    - [:tv: YouTube Video: Discussing and Implementing ReLU and Its Derivative Using PyTorch][relu_youtube]
-  - Leaky ReLU
-    - [:rocket: Implementation][leaky_relu]
-    - [:orange_book: Theory][leaky_relu_theory]
-    - [:chart_with_upwards_trend: Plot][leaky_relu_plot]
-    - [:tv: YouTube Video: Discussing and Implementing Leaky ReLU and Its Derivative Using PyTorch][leaky_relu_youtube]
-  - GELU
-    - [:rocket: Implementation][gelu]
-    - [:orange_book: Theory][gelu_theory]
-    - [:chart_with_upwards_trend: Plot][gelu_plot]
-    - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][gelu_youtube]
-  - Swish
-    - [:rocket: Implementation][swish]
-    - [:orange_book: Theory][swish_theory]
-    - [:chart_with_upwards_trend: Plot][swish_plot]
-    - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][swish_youtube]
-  - SERF
-    - [:rocket: Implementation][serf]
-    - [:orange_book: Theory][serf_theory]
-    - [:chart_with_upwards_trend: Plot][serf_plot]
-    - [:tv: YouTube Video: Discussing and Implementing SERF and Its Derivative Using PyTorch (r/MachineLearning special)][serf_youtube]
-    - [:newspaper: r/MachineLearning reddit post by u/Shronnin: \[R\] \[D\] SERF activation function - improving Swish][serf_reddit]
-  - Tanh
-    - [:rocket: Implementation][tanh]
-    - [:orange_book: Theory][tanh_theory]
-    - [:chart_with_upwards_trend: Plot][tanh_plot]
-    - [:tv: YouTube Video: Discussing and Implementing Tanh and Its Derivative Using PyTorch][tanh_youtube]
+### Activation Functions and Their Derivative Functions from Scratch Using Pytorch
 
-- **Machine Learning Models From Scratch Using NumPy**
+- Sigmoid
+  - [:rocket: Implementation][sigmoid]
+  - [:orange_book: Theory][sigmoid_theory]
+  - [:chart_with_upwards_trend: Plot][sigmoid_plot]
+  - [:tv: YouTube Video: Discussing and Implementing Sigmoid and Its Derivative Using PyTorch][sigmoid_youtube]
+- ReLU
+  - [:rocket: Implementation][relu]
+  - [:orange_book: Theory][relu_theory]
+  - [:chart_with_upwards_trend: Plot][relu_plot]
+  - [:tv: YouTube Video: Discussing and Implementing ReLU and Its Derivative Using PyTorch][relu_youtube]
+- Leaky ReLU
+  - [:rocket: Implementation][leaky_relu]
+  - [:orange_book: Theory][leaky_relu_theory]
+  - [:chart_with_upwards_trend: Plot][leaky_relu_plot]
+  - [:tv: YouTube Video: Discussing and Implementing Leaky ReLU and Its Derivative Using PyTorch][leaky_relu_youtube]
+- GELU
+  - [:rocket: Implementation][gelu]
+  - [:orange_book: Theory][gelu_theory]
+  - [:chart_with_upwards_trend: Plot][gelu_plot]
+  - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][gelu_youtube]
+- Swish
+  - [:rocket: Implementation][swish]
+  - [:orange_book: Theory][swish_theory]
+  - [:chart_with_upwards_trend: Plot][swish_plot]
+  - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][swish_youtube]
+- SERF
+  - [:rocket: Implementation][serf]
+  - [:orange_book: Theory][serf_theory]
+  - [:chart_with_upwards_trend: Plot][serf_plot]
+  - [:tv: YouTube Video: Discussing and Implementing SERF and Its Derivative Using PyTorch (r/MachineLearning special)][serf_youtube]
+  - [:newspaper: r/MachineLearning reddit post by u/Shronnin: \[R\] \[D\] SERF activation function - improving Swish][serf_reddit]
+- Tanh
+  - [:rocket: Implementation][tanh]
+  - [:orange_book: Theory][tanh_theory]
+  - [:chart_with_upwards_trend: Plot][tanh_plot]
+  - [:tv: YouTube Video: Discussing and Implementing Tanh and Its Derivative Using PyTorch][tanh_youtube]
 
-  - Gaussian Naive Bayes
-    - [:rocket: Implementation][gaussian_naive_bayes]
-    - [:orange_book: Theory][gaussian_naive_bayes_theory]
-    - [:tv: YouTube Video: Implementing Gaussian Naive Bayes from Scratch][gaussian_naive_bayes_youtube]
-    - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
-  - K-Nearest Neighbors (k-NN)
-    - [:rocket: Implementation][k_nearest_neighbors]
-    - [:orange_book: Theory][k_nearest_neighbors_theory]
-    - [:tv: YouTube Video: Implementing K-Nearest Neighbors from Scratch][k_nearest_neighbors_youtube]
-    - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
-  - Linear Regression
-    - [:rocket: Implementation][linear_regression]
-    - [:orange_book: Theory][linear_regression_theory]
-    - [:tv: YouTube Video: Implementing Linear Regression from Scratch][linear_regression_youtube]
-    - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
-  - Logistic Regression
-    - [:rocket: Implementation][logistic_regression]
-    - [:orange_book: Theory][logistic_regression_theory]
-    - [:orange_book: Computing Gradients][logistic_regression_computing_gradients]
-    - [:tv: YouTube Video: Implementing Linear Regression from Scratch][logistic_regression_youtube]
+### Machine Learning Models From Scratch Using NumPy
+
+- Gaussian Naive Bayes
+  - [:rocket: Implementation][gaussian_naive_bayes]
+  - [:orange_book: Theory][gaussian_naive_bayes_theory]
+  - [:tv: YouTube Video: Implementing Gaussian Naive Bayes from Scratch][gaussian_naive_bayes_youtube]
+  - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
+- K-Nearest Neighbors (k-NN)
+  - [:rocket: Implementation][k_nearest_neighbors]
+  - [:orange_book: Theory][k_nearest_neighbors_theory]
+  - [:tv: YouTube Video: Implementing K-Nearest Neighbors from Scratch][k_nearest_neighbors_youtube]
+  - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
+- Linear Regression
+  - [:rocket: Implementation][linear_regression]
+  - [:orange_book: Theory][linear_regression_theory]
+  - [:tv: YouTube Video: Implementing Linear Regression from Scratch][linear_regression_youtube]
+  - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability]
+- Logistic Regression
+  - [:rocket: Implementation][logistic_regression]
+  - [:orange_book: Theory][logistic_regression_theory]
+  - [:orange_book: Computing Gradients][logistic_regression_computing_gradients]
+  - [:tv: YouTube Video: Implementing Linear Regression from Scratch][logistic_regression_youtube]
 
 ## License
 

@@ -1,9 +1,6 @@
 import numpy as np
 
-from dataclasses import dataclass
 
-
-@dataclass
 class GaussianNaiveBayes:
     def fit(self, features: np.ndarray, labels: np.ndarray) -> None:
         """Fits the Gaussian Naive Bayes model."""

@@ -5,8 +5,8 @@ from dataclasses import dataclass
 
 @dataclass
 class LogisticRegression:
-    learning_rate: float
     epochs: int
+    learning_rate: float
     threshold: float
     logging: bool
 

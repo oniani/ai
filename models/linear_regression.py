@@ -5,8 +5,8 @@ from dataclasses import dataclass
 
 @dataclass
 class LinearRegression:
-    learning_rate: float
     epochs: int
+    learning_rate: float
     logging: bool
 
     def fit(self, features: np.ndarray, labels: np.ndarray) -> None:
