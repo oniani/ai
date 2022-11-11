@@ -76,6 +76,10 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
   - [:orange_book: Theory][logistic_regression_theory]
   - [:orange_book: Computing Gradients][logistic_regression_computing_gradients]
   - [:tv: YouTube Video: Implementing Linear Regression from Scratch][logistic_regression_youtube]
+- K-Means Clustering
+  - [:rocket: Implementation][k_means_clustering]
+  - [:orange_book: Theory][k_means_clustering_theory]
+  - [:tv: YouTube Video: Implementing K-Means Clustering Using NumPy][k_means_clustering_youtube]
 
 ## License
 
@@ -127,5 +131,8 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [logistic_regression_theory]: https://en.wikipedia.org/wiki/Logistic_regression
 [logistic_regression_computing_gradients]: theory/gradients/logistic_regression/logistic_regression.pdf
 [logistic_regression_youtube]: https://www.youtube.com/watch?v=YDa3rX9yLCE
+[k_means_clustering]: models/k_means_clustering.py
+[k_means_clustering_theory]: https://en.wikipedia.org/wiki/K-means_clustering
+[k_means_clustering_youtube]: https://www.youtube.com/watch?v=NfPGFSUM-nI
 [implement]: https://www.youtube.com/watch?v=maJIRFeQBVI&list=PLG8XxYPkVOUvVzz1ZKcGAJpIBK7GRrFYR
 [api_design_and_numerical_stability]: https://www.youtube.com/watch?v=BOoTX0hkO6k
