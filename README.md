@@ -5,6 +5,7 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 ## Contents
 
 - [Activation Functions and Their Derivative Functions from Scratch Using Pytorch](#activation-functions-and-their-derivative-functions-from-scratch-using-pytorch)
+- [Gradient Descent](#gradient-descent)
 - [Machine Learning Models From Scratch Using NumPy](#machine-learning-models-from-scratch-using-numpy)
 
 ### Activation Functions and Their Derivative Functions from Scratch Using Pytorch
@@ -45,6 +46,13 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
   - [:orange_book: Theory][tanh_theory]
   - [:chart_with_upwards_trend: Plot][tanh_plot]
   - [:tv: YouTube Video: Discussing and Implementing Tanh and Its Derivative Using PyTorch][tanh_youtube]
+
+### Gradient Descent
+
+- Discussing Batch, Stochastic, and Mini-Batch Gradient Descent
+  - [:orange_book: Theory][gradient_descent_theory]
+  - [:chart_with_upwards_trend: Convex and Non-Convex Functions][gradient_descent_plot]
+  - [:tv: YouTube Video: Discussing Batch, Stochastic, and Mini-Batch Gradient Descent][gradient_descent_youtube]
 
 ### Machine Learning Models From Scratch Using NumPy
 
@@ -103,6 +111,9 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [tanh_theory]: https://en.wikipedia.org/wiki/Hyperbolic_functions#Exponential_definitions
 [tanh_plot]: activations/plots/tanh.png
 [tanh_youtube]: https://www.youtube.com/watch?v=MSi1tobj-jg
+[gradient_descent_theory]: theory/gradient_descent/gradient_descent.pdf
+[gradient_descent_plot]: theory/gradient_descent/convex_and_non_convex_plot.png
+[gradient_descent_youtube]: https://www.youtube.com/watch?v=mV247Fe1DJc
 [gaussian_naive_bayes]: models/gaussian_naive_bayes.py
 [gaussian_naive_bayes_theory]: https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Gaussian_naive_Bayes
 [gaussian_naive_bayes_youtube]: https://www.youtube.com/watch?v=maJIRFeQBVI

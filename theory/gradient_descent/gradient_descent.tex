@@ -1,0 +1,141 @@
+%
+% Author: David Oniani
+%
+%  _____    ___     _  __
+% |_   _| _|_ _|___| |/ /___
+%   | || '__| |/ __| ' // __|
+%   | || |  | | (__| . \\__ \
+%   |_||_| |___\___|_|\_\___/
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document Definition
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages and Related Settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Global, document-wide settings
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% Other essential packages
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Setup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PDF information and nice-looking urls
+\hypersetup{%
+    pdfauthor={David Oniani},
+    pdftitle={Gradient Descent},
+    pdfsubject={Gradient Descent, Algorithm, Artificial Intelligence},
+    pdfkeywords={Gradient Descent, Algorithm, Artificial Intelligence},
+    pdflang={English},
+    colorlinks=true,
+    linkcolor={black!50!blue},
+    citecolor={black!50!blue},
+    urlcolor={black!50!blue}
+}
+
+% Removes page numbers
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author(s), Title, and Date
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Author
+\author{David Oniani}
+
+% Title
+\title{Gradient Descent}
+
+% Date
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beginning of Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Gradient Descent
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{\centering Gradient Descent}
+
+\underline{Short Summary}: Gradient Descent is a widely used optimization algorithm for efficiently
+training machine learning models. There are three primary categories of Gradient Descent: Batch
+Gradient Descent, Stochastic Gradient Descent, and Mini-Batch Gradient Descent. We discuss each.
+\\
+\\
+Definitions:
+
+\begin{itemize}
+    \item \(\theta\) - Model parameters.
+    \item \(J(\theta)\) - Loss function.
+    \item \(\bigtriangledown_\theta J(\theta)\) - Gradient of the losss function w.r.t. the
+        parameters \(\theta\).
+    \item \(\alpha\) - Learning rate.
+    \item \(n\) - Mini-batch size.
+\end{itemize}
+
+\vspace{0.5em}
+
+\begin{itemize}
+    \item \textbf{Batch Gradient Descent}
+        \begin{itemize}
+            \item The entire dataset is used for updating the model parameters.
+            \item Does not allow for online learning (i.e., on-the-fly updates with new samples).
+            \item Slow and problematic if the entire dataset does not fit into memory.
+            \item Converges to the global minimum for convex functions and to a local minimum for
+                non-convex functions for ``reasonable'' learning rates.
+        \end{itemize}
+
+        \begin{equation}
+            \theta = \theta - \alpha \cdot \bigtriangledown_\theta J(\theta)
+        \end{equation}
+
+    \item \textbf{Stochastic Gradient Descent}
+        \begin{itemize}
+            \item A single \((x, y\)) feature-label pair is used for updating the model parameters.
+            \item Allows for online training and faster than Batch Gradient Descent (fits into memory).
+            \item Loss function fluctuates heavily with each iteration resulting in high variance updates.
+            \item Might fail to converge exactly due to fluctuations, but has a chance of jumping
+                out of a local minimum and converging to a better one.
+        \end{itemize}
+
+        \begin{equation}
+            \theta = \theta - \alpha \cdot \bigtriangledown_\theta J(\theta;{x^{(i)}};{y^{(i)}})
+        \end{equation}
+
+    \item \textbf{Mini-Batch Gradient Descent}
+        \begin{itemize}
+            \item A mini-batch (usually from \(n = 8\) to \(n = 512\)) is used for updating the model parameters.
+            \item Allows for online training and is fast as it leverages highly optimized tensor operations.
+            \item Reduces the fluctuations of Stochastic Gradient Descent.
+            \item Does not guarantee good convergence out-of-the-box and utilizes advanced techniques.
+        \end{itemize}
+
+        \begin{equation}
+            \theta = \theta - \alpha \cdot \bigtriangledown_\theta J(\theta;{x^{(i:i+n)}};{y^{(i:i+n)}})
+        \end{equation}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
