@@ -5,6 +5,7 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 ## Contents
 
 - [Activation Functions and Their Derivative Functions from Scratch Using Pytorch](#activation-functions-and-their-derivative-functions-from-scratch-using-pytorch)
+- [Functions](#functions)
 - [Gradient Descent](#gradient-descent)
 - [Machine Learning Models From Scratch Using NumPy](#machine-learning-models-from-scratch-using-numpy)
 
@@ -46,6 +47,13 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
   - [:orange_book: Theory][tanh_theory]
   - [:chart_with_upwards_trend: Plot][tanh_plot]
   - [:tv: YouTube Video: Discussing and Implementing Tanh and Its Derivative Using PyTorch][tanh_youtube]
+
+### Functions
+
+- Distance Functions
+  - [:rocket: Implementation][distance_functions]
+  - [:orange_book: Theory][distance_functions_theory]
+  - [:tv: YouTube Video: Implementing Distance Functions][distance_functions_youtube]
 
 ### Gradient Descent
 
@@ -115,6 +123,9 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [tanh_theory]: https://en.wikipedia.org/wiki/Hyperbolic_functions#Exponential_definitions
 [tanh_plot]: activations/plots/tanh.png
 [tanh_youtube]: https://www.youtube.com/watch?v=MSi1tobj-jg
+[distance_functions]: functions/distance.py
+[distance_functions_theory]: https://en.wikipedia.org/wiki/Similarity_measure
+[distance_functions_youtube]: https://www.youtube.com/watch?v=50G47n42-9o
 [gradient_descent_theory]: theory/gradient_descent/gradient_descent.pdf
 [gradient_descent_plot]: theory/gradient_descent/convex_and_non_convex_plot.png
 [gradient_descent_youtube]: https://www.youtube.com/watch?v=mV247Fe1DJc
