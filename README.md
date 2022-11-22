@@ -7,7 +7,7 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 - [Activation Functions and Their Derivative Functions from Scratch Using Pytorch](#activation-functions-and-their-derivative-functions-from-scratch-using-pytorch)
 - [Functions](#functions)
 - [Gradient Descent](#gradient-descent)
-- [Machine Learning Models From Scratch Using NumPy](#machine-learning-models-from-scratch-using-numpy)
+- [Machine Learning Models from Scratch Using NumPy](#machine-learning-models-from-scratch-using-numpy)
 
 ### Activation Functions and Their Derivative Functions from Scratch Using Pytorch
 
@@ -54,6 +54,10 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
   - [:rocket: Implementation][distance_functions]
   - [:orange_book: Theory][distance_functions_theory]
   - [:tv: YouTube Video: Implementing Distance Functions][distance_functions_youtube]
+- Convolution
+  - [:rocket: Implementation][convolution]
+  - [:orange_book: Theory][convolution_theory]
+  - [:tv: YouTube Video: Implementing a Convolution? (+ Baby Yoda)][convolution_youtube]
 
 ### Gradient Descent
 
@@ -62,7 +66,7 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
   - [:chart_with_upwards_trend: Convex and Non-Convex Functions][gradient_descent_plot]
   - [:tv: YouTube Video: Discussing Batch, Stochastic, and Mini-Batch Gradient Descent][gradient_descent_youtube]
 
-### Machine Learning Models From Scratch Using NumPy
+### Machine Learning Models from Scratch Using NumPy
 
 - Gaussian Naive Bayes
   - [:rocket: Implementation][gaussian_naive_bayes]
@@ -126,6 +130,9 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [distance_functions]: functions/distance.py
 [distance_functions_theory]: https://en.wikipedia.org/wiki/Similarity_measure
 [distance_functions_youtube]: https://www.youtube.com/watch?v=50G47n42-9o
+[convolution]: functions/convolution.py
+[convolution_theory]: https://en.wikipedia.org/wiki/Convolution
+[convolution_youtube]: https://www.youtube.com/watch?v=pmyulQwV62k
 [gradient_descent_theory]: theory/gradient_descent/gradient_descent.pdf
 [gradient_descent_plot]: theory/gradient_descent/convex_and_non_convex_plot.png
 [gradient_descent_youtube]: https://www.youtube.com/watch?v=mV247Fe1DJc
