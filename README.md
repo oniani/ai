@@ -7,6 +7,7 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 - [Activation Functions and Their Derivative Functions from Scratch Using Pytorch](#activation-functions-and-their-derivative-functions-from-scratch-using-pytorch)
 - [Functions](#functions)
 - [Gradient Descent](#gradient-descent)
+- [Deep Learning](#deep-learning)
 - [Machine Learning Models from Scratch Using NumPy](#machine-learning-models-from-scratch-using-numpy)
 
 ### Activation Functions and Their Derivative Functions from Scratch Using Pytorch
@@ -65,6 +66,13 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
   - [:orange_book: Theory][gradient_descent_theory]
   - [:chart_with_upwards_trend: Convex and Non-Convex Functions][gradient_descent_plot]
   - [:tv: YouTube Video: Discussing Batch, Stochastic, and Mini-Batch Gradient Descent][gradient_descent_youtube]
+
+### Deep Learning
+
+- Deep Learning Project Setup (+ CNN for MNIST)
+  - [:orange_book: The Reproducible MNIST][the_reproducible_mnist]
+  - [:rocket: MNIST CNN Model][mnist_cnn]
+  - [:tv: YouTube Video: Deep Learning Project Setup (+ CNN for MNIST)][deep_learning_setup]
 
 ### Machine Learning Models from Scratch Using NumPy
 
@@ -154,3 +162,6 @@ _Artificial Intelligence (AI) - Contains Code for Several YouTube Series._
 [k_means_clustering_youtube]: https://www.youtube.com/watch?v=NfPGFSUM-nI
 [implement]: https://www.youtube.com/watch?v=maJIRFeQBVI&list=PLG8XxYPkVOUvVzz1ZKcGAJpIBK7GRrFYR
 [api_design_and_numerical_stability]: https://www.youtube.com/watch?v=BOoTX0hkO6k
+[the_reproducible_mnist]: https://github.com/oniani/mnist
+[mnist_cnn]: models/mnist_cnn.py
+[deep_learning_setup]: https://www.youtube.com/watch?v=2JkJZQP9dHg

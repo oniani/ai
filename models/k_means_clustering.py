@@ -44,7 +44,6 @@ if __name__ == "__main__":
     plt.style.use("bmh")
 
     np.random.seed(0)
-    plt.style.use("bmh")
 
     features = np.random.rand(1_000, 2)
 
