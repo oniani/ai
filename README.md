@@ -51,13 +51,16 @@ From-scratch impls of AI models, approaches, tricks, and more!
 
 ### Deep Learning
 
-- Deep Learning Project Setup (+ CNN for MNIST)
+- Image Classification: CNN for MNIST (+Deep Learning Project Setup)
   - [:orange_book: The Reproducible MNIST][the_reproducible_mnist]
   - [:rocket: MNIST CNN Model][mnist_cnn]
-  - [:tv: YouTube Video: Deep Learning Project Setup (+ CNN for MNIST)][deep_learning_setup_youtube]
-- VGG Models for Image Classification
-  - [:rocket: VGG Model][vgg]
-  - [:tv: YouTube Video: VGG Models for Image Classification][vgg_youtube]
+  - [:tv: YouTube Video: Image Classification: CNN for MNIST (+Deep Learning Project Setup)][deep_learning_setup_youtube]
+- Image Classification: VGG Models
+  - [:rocket: Implementation][vgg]
+  - [:tv: YouTube Video: Image Classification: VGG Models][vgg_youtube]
+- Recommendation Systems: Generalized Matrix Factorization
+  - [:rocket: Implementation][gmf]
+  - [:tv: YouTube Video: Recommendation Systems: Generalized Matrix Factorization][gmf_youtube]
 
 ### Functions
 
@@ -170,3 +173,5 @@ From-scratch impls of AI models, approaches, tricks, and more!
 [deep_learning_setup_youtube]: https://www.youtube.com/watch?v=2JkJZQP9dHg
 [vgg]: model/dl/vgg.py
 [vgg_youtube]: https://www.youtube.com/watch?v=0Ak4i2j_diM
+[gmf]: model/dl/gmf.py
+[gmf_youtube]: https://www.youtube.com/watch?v=gZgftF5hZOs
