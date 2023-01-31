@@ -47,6 +47,11 @@ if __name__ == "__main__":
     df["rating"] = (rating - min_rating) / (max_rating - min_rating)
     print(f"rating is from {df['rating'].min()} to {df['rating'].max()}")
 
+    # Do not recommend if the rating is less than 0.5
+    cond = df["rating"] < 0.5
+    df["rating"].where(cond, 0, inplace=True)
+    df["rating"].where(~cond, 1, inplace=True)
+
     enc_movie = {movie_id: idx for idx, movie_id in enumerate(df["movieId"].unique())}
     df["movieId"] = [enc_movie[movie_id] for movie_id in df["movieId"]]
     print(f"movieId is from {df['movieId'].min()} to {df['movieId'].max()}")
