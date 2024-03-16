@@ -107,6 +107,11 @@ From-scratch impls of AI models, approaches, tricks, and more!
   - [:orange_book: Theory][k_means_clustering_theory]
   - [:tv: YouTube Video: Implementing K-Means Clustering Using NumPy][k_means_clustering_youtube]
 
+### AI/ML Methods
+
+- Principal Component Analysis (PCA)
+  - [:rocket: Implementation][k_means_clustering]
+
 ## License
 
 [MIT License][license]
@@ -166,6 +171,8 @@ From-scratch impls of AI models, approaches, tricks, and more!
 [k_means_clustering]: model/ml/k_means_clustering.py
 [k_means_clustering_theory]: https://en.wikipedia.org/wiki/K-means_clustering
 [k_means_clustering_youtube]: https://www.youtube.com/watch?v=NfPGFSUM-nI
+[pca]: method/pca.py
+[pca_youtube]: https://www.youtube.com/watch?v=Gx7MmwmBFaM
 [implement]: https://www.youtube.com/watch?v=maJIRFeQBVI&list=PLG8XxYPkVOUvVzz1ZKcGAJpIBK7GRrFYR
 [api_design_and_numerical_stability_youtube]: https://www.youtube.com/watch?v=BOoTX0hkO6k
 [the_reproducible_mnist]: https://github.com/davidoniani/mnist
