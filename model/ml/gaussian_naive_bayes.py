@@ -62,8 +62,8 @@ if __name__ == "__main__":
     )
 
     gnb = GaussianNaiveBayes()
-    gnb.fit(train_features, train_labels)  # type: ignore
-    predictions = gnb.predict(test_features)  # type: ignore
+    gnb.fit(train_features, train_labels)
+    predictions = gnb.predict(test_features)
 
     accuracy = accuracy_score(test_labels, predictions)
     precision, recall, fscore, _ = precision_recall_fscore_support(
@@ -75,4 +75,4 @@ if __name__ == "__main__":
     print(f"Recall:    {recall:.3f}")
     print(f"F-score:   {fscore:.3f}")
     print()
-    print(f"Mislabeled points: {(predictions != test_labels).sum()}/{test_features.shape[0]}")  # type: ignore
+    print(f"Mislabeled points: {(predictions != test_labels).sum()}/{test_features.shape[0]}")

@@ -81,7 +81,7 @@ if __name__ == "__main__":
     # `torch.autograd.gradcheck` takes a tuple of tensors as input, check if your gradient evaluated
     # with these tensors are close enough to numerical approximations and returns `True` if they all
     # verify this condition.
-    if torch.autograd.gradcheck(sigmoid, data, eps=1e-8, atol=1e-7):  # type: ignore
+    if torch.autograd.gradcheck(sigmoid, data, eps=1e-8, atol=1e-7):
         print("gradcheck successful")
     else:
         print("gradcheck unsuccessful")

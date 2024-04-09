@@ -2,6 +2,14 @@
 
 From-scratch impls of AI models, approaches, tricks, and more!
 
+## Setup
+
+```console
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Contents
 
 - [Activation Functions and Their Derivative Functions from Scratch Using Pytorch](#activation-functions-and-their-derivative-functions-from-scratch-using-pytorch)
@@ -9,6 +17,7 @@ From-scratch impls of AI models, approaches, tricks, and more!
 - [Gradient Descent](#gradient-descent)
 - [Deep Learning](#deep-learning)
 - [Machine Learning Models from Scratch Using NumPy](#machine-learning-models-from-scratch-using-numpy)
+- [Representation](#representation)
 
 ### Activation Functions and Their Derivative Functions from Scratch Using Pytorch
 
@@ -16,38 +25,38 @@ From-scratch impls of AI models, approaches, tricks, and more!
   - [:rocket: Implementation][sigmoid]
   - [:orange_book: Theory][sigmoid_theory]
   - [:chart_with_upwards_trend: Plot][sigmoid_plot]
-  - [:tv: YouTube Video: Discussing and Implementing Sigmoid and Its Derivative Using PyTorch][sigmoid_youtube]
+  - [:tv: YouTube Video: Implementing Sigmoid and Its Derivative from Scratch][sigmoid_youtube]
 - ReLU
   - [:rocket: Implementation][relu]
   - [:orange_book: Theory][relu_theory]
   - [:chart_with_upwards_trend: Plot][relu_plot]
-  - [:tv: YouTube Video: Discussing and Implementing ReLU and Its Derivative Using PyTorch][relu_youtube]
+  - [:tv: YouTube Video: Implementing ReLU and Its Derivative from Scratch][relu_youtube]
 - Leaky ReLU
   - [:rocket: Implementation][leaky_relu]
   - [:orange_book: Theory][leaky_relu_theory]
   - [:chart_with_upwards_trend: Plot][leaky_relu_plot]
-  - [:tv: YouTube Video: Discussing and Implementing Leaky ReLU and Its Derivative Using PyTorch][leaky_relu_youtube]
+  - [:tv: YouTube Video: Implementing Leaky ReLU and Its Derivative from Scratch][leaky_relu_youtube]
 - GELU
   - [:rocket: Implementation][gelu]
   - [:orange_book: Theory][gelu_theory]
   - [:chart_with_upwards_trend: Plot][gelu_plot]
-  - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][gelu_youtube]
+  - [:tv: YouTube Video: Implementing GELU and Its Derivative from Scratch][gelu_youtube]
 - Swish
   - [:rocket: Implementation][swish]
   - [:orange_book: Theory][swish_theory]
   - [:chart_with_upwards_trend: Plot][swish_plot]
-  - [:tv: YouTube Video: Discussing and Implementing GELU and Its Derivative Using PyTorch][swish_youtube]
+  - [:tv: YouTube Video: Implementing Swish and Its Derivative from Scratch][swish_youtube]
 - SERF
   - [:rocket: Implementation][serf]
   - [:orange_book: Theory][serf_theory]
   - [:chart_with_upwards_trend: Plot][serf_plot]
-  - [:tv: YouTube Video: Discussing and Implementing SERF and Its Derivative Using PyTorch (r/MachineLearning special)][serf_youtube]
+  - [:tv: YouTube Video: Implementing SERF and Its Derivative from Scratch (r/MachineLearning special)][serf_youtube]
   - [:newspaper: r/MachineLearning reddit post by u/Shronnin: \[R\] \[D\] SERF activation function - improving Swish][serf_reddit]
 - Tanh
   - [:rocket: Implementation][tanh]
   - [:orange_book: Theory][tanh_theory]
   - [:chart_with_upwards_trend: Plot][tanh_plot]
-  - [:tv: YouTube Video: Discussing and Implementing Tanh and Its Derivative Using PyTorch][tanh_youtube]
+  - [:tv: YouTube Video: Implementing Tanh and Its Derivative from Scratch][tanh_youtube]
 
 ### Deep Learning
 
@@ -55,23 +64,23 @@ From-scratch impls of AI models, approaches, tricks, and more!
   - [:orange_book: The Reproducible MNIST][the_reproducible_mnist]
   - [:rocket: MNIST CNN Model][mnist_cnn]
   - [:tv: YouTube Video: Image Classification: CNN for MNIST (+Deep Learning Project Setup)][deep_learning_setup_youtube]
-- Image Classification: VGG Models
+- Image Classification: VGG Model from Scratch
   - [:rocket: Implementation][vgg]
-  - [:tv: YouTube Video: Image Classification: VGG Models][vgg_youtube]
-- Recommendation Systems: Generalized Matrix Factorization
+  - [:tv: YouTube Video: Image Classification: VGG Models from Scratch][vgg_youtube]
+- Recommender Systems: Generalized Matrix Factorization from Scratch
   - [:rocket: Implementation][gmf]
-  - [:tv: YouTube Video: Recommendation Systems: Generalized Matrix Factorization][gmf_youtube]
+  - [:tv: YouTube Video: Recommender Systems: Generalized Matrix Factorization from Scratch][gmf_youtube]
 
 ### Functions
 
 - Distance Functions
   - [:rocket: Implementation][distance_functions]
   - [:orange_book: Theory][distance_functions_theory]
-  - [:tv: YouTube Video: Implementing Distance Functions][distance_functions_youtube]
+  - [:tv: YouTube Video: Implementing Distance Functions from Scratch][distance_functions_youtube]
 - Convolution
   - [:rocket: Implementation][convolution]
   - [:orange_book: Theory][convolution_theory]
-  - [:tv: YouTube Video: Implementing a Convolution? (+ Baby Yoda)][convolution_youtube]
+  - [:tv: YouTube Video: Implementing a Convolution from Scratch (+ Baby Yoda)][convolution_youtube]
 
 ### Gradient Descent
 
@@ -80,17 +89,17 @@ From-scratch impls of AI models, approaches, tricks, and more!
   - [:chart_with_upwards_trend: Convex and Non-Convex Functions][gradient_descent_plot]
   - [:tv: YouTube Video: Discussing Batch, Stochastic, and Mini-Batch Gradient Descent][gradient_descent_youtube]
 
-### Machine Learning Models from Scratch Using NumPy
+### Machine Learning Models From Scratch Using NumPy
 
 - Gaussian Naive Bayes
   - [:rocket: Implementation][gaussian_naive_bayes]
   - [:orange_book: Theory][gaussian_naive_bayes_theory]
-  - [:tv: YouTube Video: Implementing Gaussian Naive Bayes from Scratch][gaussian_naive_bayes_youtube]
+  - [:tv: YouTube Video: Implementing Gaussian Naive Bayes From Scratch][gaussian_naive_bayes_youtube]
   - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability_youtube]
 - K-Nearest Neighbors (k-NN)
   - [:rocket: Implementation][k_nearest_neighbors]
   - [:orange_book: Theory][k_nearest_neighbors_theory]
-  - [:tv: YouTube Video: Implementing K-Nearest Neighbors from Scratch][k_nearest_neighbors_youtube]
+  - [:tv: YouTube Video: Implementing K-Nearest Neighbors From Scratch][k_nearest_neighbors_youtube]
   - [:tv: YouTube Video: AI/ML Model API Design and Numerical Stability (follow-up)][api_design_and_numerical_stability_youtube]
 - Linear Regression
   - [:rocket: Implementation][linear_regression]
@@ -102,15 +111,19 @@ From-scratch impls of AI models, approaches, tricks, and more!
   - [:orange_book: Theory][logistic_regression_theory]
   - [:orange_book: Computing Gradients][logistic_regression_computing_gradients]
   - [:tv: YouTube Video: Implementing Linear Regression from Scratch][logistic_regression_youtube]
-- K-Means Clustering
+- k-Means Clustering
   - [:rocket: Implementation][k_means_clustering]
   - [:orange_book: Theory][k_means_clustering_theory]
-  - [:tv: YouTube Video: Implementing K-Means Clustering Using NumPy][k_means_clustering_youtube]
+  - [:tv: YouTube Video: Implementing k-Means Clustering from Scratch][k_means_clustering_youtube]
 
-### AI/ML Methods
+### Representation
 
-- Principal Component Analysis (PCA)
-  - [:rocket: Implementation][k_means_clustering]
+- Principal Component Analysis (PCA) from Scratch
+  - [:rocket: Implementation][pca]
+  - [:tv: YouTube Video: Implementing Principal Component Analysis (PCA) from Scratch][pca_youtube]
+- TF-IDF from Scratch
+  - [:rocket: Implementation][tfidf]
+  - [:tv: YouTube Video: Implementing TF-IDF from Scratch][tfidf_youtube]
 
 ## License
 
@@ -171,8 +184,10 @@ From-scratch impls of AI models, approaches, tricks, and more!
 [k_means_clustering]: model/ml/k_means_clustering.py
 [k_means_clustering_theory]: https://en.wikipedia.org/wiki/K-means_clustering
 [k_means_clustering_youtube]: https://www.youtube.com/watch?v=NfPGFSUM-nI
-[pca]: method/pca.py
+[pca]: representation/pca.py
 [pca_youtube]: https://www.youtube.com/watch?v=Gx7MmwmBFaM
+[tfidf]: representation/tfidf.py
+[tfidf_youtube]: https://www.youtube.com/watch?v=otgVLfBabKk
 [implement]: https://www.youtube.com/watch?v=maJIRFeQBVI&list=PLG8XxYPkVOUvVzz1ZKcGAJpIBK7GRrFYR
 [api_design_and_numerical_stability_youtube]: https://www.youtube.com/watch?v=BOoTX0hkO6k
 [the_reproducible_mnist]: https://github.com/davidoniani/mnist

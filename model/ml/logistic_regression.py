@@ -38,7 +38,7 @@ class LogisticRegression:
 
         for epoch in range(self.epochs):
             prediction = self.sigmoid(features.dot(self.weights) + self.bias)
-            difference = prediction - labels  # type: ignore
+            difference = prediction - labels
 
             d_weights = features.T.dot(difference) / num_samples
             d_bias = difference.sum() / num_samples
@@ -52,7 +52,7 @@ class LogisticRegression:
     def predict(self, features: np.ndarray) -> np.ndarray:
         """Performs inference using the given features."""
 
-        return np.where(self.sigmoid(features.dot(self.weights) + self.bias) < self.threshold, 0, 1)  # type: ignore
+        return np.where(self.sigmoid(features.dot(self.weights) + self.bias) < self.threshold, 0, 1)
 
 
 if __name__ == "__main__":
@@ -69,7 +69,10 @@ if __name__ == "__main__":
 
     # Train/test split
     train_features, test_features, train_labels, test_labels = train_test_split(
-        data.data, data.target, test_size=0.33, random_state=0  # type: ignore
+        data.data,
+        data.target,
+        test_size=0.33,
+        random_state=0,
     )
 
     logistic_regression = LogisticRegression(
@@ -78,8 +81,8 @@ if __name__ == "__main__":
         threshold=0.5,
         logging=False,
     )
-    logistic_regression.fit(train_features, train_labels)  # type: ignore
-    predictions = logistic_regression.predict(test_features)  # type: ignore
+    logistic_regression.fit(train_features, train_labels)
+    predictions = logistic_regression.predict(test_features)
 
     accuracy = accuracy_score(test_labels, predictions)
     precision, recall, fscore, _ = precision_recall_fscore_support(

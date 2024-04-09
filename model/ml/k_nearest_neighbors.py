@@ -32,11 +32,14 @@ if __name__ == "__main__":
     iris = datasets.load_iris()
 
     train_features, test_features, train_labels, test_labels = train_test_split(
-        iris.data, iris.target, test_size=0.25, random_state=0  # type: ignore
+        iris.data,
+        iris.target,
+        test_size=0.25,
+        random_state=0,
     )
 
-    knn = KNN(train_features, train_labels, k=3)  # type: ignore
-    predictions = knn.predict(test_features)  # type: ignore
+    knn = KNN(train_features, train_labels, k=3)
+    predictions = knn.predict(test_features)
 
     accuracy = accuracy_score(test_labels, predictions)
     precision, recall, fscore, _ = precision_recall_fscore_support(

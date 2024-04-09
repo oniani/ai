@@ -16,7 +16,7 @@ class LinearRegression:
         self.weights, self.bias = np.zeros(num_features), 0
 
         for epoch in range(self.epochs):
-            residuals = labels - self.predict(features)  # type: ignore
+            residuals = labels - self.predict(features)
 
             d_weights = -2 / num_samples * features.T.dot(residuals)
             d_bias = -2 / num_samples * residuals.sum()
